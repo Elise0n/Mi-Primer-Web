@@ -1,0 +1,71 @@
+<!-- contacto.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrustedMusic - Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/95f96c39e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <!-- Menú de navegación -->
+        <h1>TrustedMusic</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="articulo.html">Artículo</a></li>
+            <li><a class="actual" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Formulario de contacto -->
+    <div class="container" id="containerr">
+        <h2>Consultas</h2>
+        
+            <form id="contactForm">
+                <div class="inputs">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" >
+                </div>
+                <div class="inputs">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" >
+                </div>
+                <div class="inputs">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" ></textarea>
+                </div>
+                <label for="pais">Usted se encuentra en:</label>
+                <div class="ubicacion">
+                    <input type="radio" id="argentina" name="pais" value="argentina">
+                    <label for="argentina">Argentina</label>
+                    <input type="radio" id="otro" name="pais" value="otro">
+                    <label for="otro">Otro país</label>
+                </div>
+
+                <button type="submit">Enviar</button>
+
+                <ul id="mensajesError"></ul>
+            </form>      
+
+        </div>
+        <h3>Consultas realizadas:</h3>
+        <div id = "seccionConsultas">
+        </div>
+
+    <footer>
+        <p>Visitanos en nuestras redes <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>  <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a> <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>  @TrustedMusic</p>
+    </footer>
+    <script src="js/formulariotest.js"></script>
+</body>
+
+</html>

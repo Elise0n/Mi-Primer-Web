@@ -1,0 +1,114 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0 0 65px 0;
+    height: 100%;
+}
+
+/* Header */
+.header {
+    position: center center;
+    color: #FFFFFF; /* Cambia el color de las letras a blanco */
+    margin: 0;
+    background-position: 185px 0;
+    font-family: 'Montserrat', sans-serif; /* Fuente moderna y legible */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Añade una sombra a las letras para mejorar la legibilidad */
+    letter-spacing: 1px; /* Añade espaciado entre las letras */
+    padding: 1px; /* Añade un poco de padding para mejor presentación */
+    background-color: #333; /* Fondo oscuro para mejor contraste */
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenido {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.contenido h2 {
+    margin: 10px 0;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+h1 {
+    background-color: transparent;
+    margin: 21px 10px;
+    border-radius: 10px;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.actual) {
+    text-decoration: underline;
+    background-color: rgb(160, 160, 160);
+}
+
+.actual {
+    background-color: rgb(117, 180, 158);
+}
+
+.contenido {
+    margin-left: 10px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 5px 0 5px;
+}
+    
